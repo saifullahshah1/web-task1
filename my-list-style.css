@@ -1,0 +1,121 @@
+/* 19I-1980 Saif Ullah Shah */
+.body{
+    margin: 0px;
+}
+
+.header-section{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url('car-images/5002008-illustration-cars-artist-artwork-digital-art-hd-behance-retro-porsche-911-porsche.jpg'); 
+    background-repeat: no-repeat; 
+    height: 500px; 
+    background-size: cover;
+    background-position: top;
+}
+
+.header-title{
+    text-align:center; 
+    max-width: 780px ; 
+    font-size: 36px; 
+    color: black; 
+    font-weight: normal; 
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+}
+
+.profile-section{
+    display: flex; 
+    flex-direction: 
+    column; align-items: center;
+}
+
+.profile-image{
+    border-radius: 100%; 
+    width: 100px; 
+    height: 100px;     
+    position: relative;
+    top: -50px;
+    border: 1px;
+    border-color: white;
+}
+
+.profile-details{
+    text-align:center ;
+    position: relative; 
+    top: -50px;
+}
+
+.profile-text{
+    margin: 0px; 
+    color: rgb(51,51,51); 
+    line-height: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+
+}
+
+.ending-line{
+    color: #e6e6e6; 
+    line-height: 2px;
+}
+
+.list-section{
+    margin: auto; 
+    max-width: 66.67%; 
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap: 40px ;
+}
+
+.list-index{
+    margin: 0px; 
+    color: rgba(0, 0, 0, 0.25); 
+    font-size: 36px; 
+    font-weight: bold; 
+    font-family: 'Roboto Slab', serif;
+}
+
+.list-item-heading{
+    margin: 0px; 
+    color: rgb(51, 51, 51) ; 
+    font-size: 36px; 
+    font-weight: bold; 
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.address-link:link{
+    margin: 0px; 
+    color: #42b4d6; 
+    text-decoration: none;
+}
+.address-link:hover{
+    margin: 0px; 
+    color: #42b4d6; 
+    text-decoration:underline;
+}
+
+.description-style{
+    margin: 0px; 
+    padding-top: 20px; 
+    font-size: 18px; 
+    color: rgb(51, 51, 51) ; 
+    line-height: 32px; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.recommendation-style{
+    margin: 0px;
+    padding: 20px 0px 20px 0px; 
+    line-height: 32px;  
+    font-size: 18px;  
+    color: rgb(51, 51, 51) ; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.item-image-style{
+    width: 100%; 
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
